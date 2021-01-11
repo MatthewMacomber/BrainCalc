@@ -1,16 +1,25 @@
 {
-  "name": "react-nodegui-boilerplate",
-  "version": "1.0.0",
+  "name": "braincalc",
+  "version": "0.0.1",
+  "description": "A calculator with built in brainf*ck functionality.",
   "main": "index.js",
   "author": "Matthew M <code1man@gmail.com>",
   "license": "MIT",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewMacomber/BrainCalc.git"
+  },
   "scripts": {
     "build": "webpack -p",
     "dev": "webpack --mode=development",
     "start": "qode ./dist/index.js",
     "debug": "qode --inspect ./dist/index.js"
   },
+  "bugs": {
+    "url": "https://github.com/MatthewMacomber/BrainCalc/issues"
+  },
+  "homepage": "https://github.com/MatthewMacomber/BrainCalc#readme",
   "dependencies": {
     "@nodegui/react-nodegui": "^0.9.0",
     "open": "^7.2.1",
@@ -30,6 +39,9 @@
     "file-loader": "^6.1.0",
     "fork-ts-checker-webpack-plugin": "^5.2.0",
     "native-addon-loader": "^2.0.1",
+    "rete": "^1.4.5-rc.1",
+    "rete-connection-plugin": "^0.9.0",
+    "rete-vue-render-plugin": "^0.5.0",
     "typescript": "^4.0.3",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
